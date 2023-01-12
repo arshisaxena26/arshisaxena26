@@ -40,7 +40,5 @@
 <hr>
 
 <section>
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=arshisaxena26&show_icons=true&theme=chartreuse-dark&locale=en" alt="arshisaxena26" />
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arshisaxena26&langs_count=7&theme=chartreuse-dark" alt="arshisaxena26" />
   <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=arshisaxena26&theme=chartreuse-dark" alt="arshisaxena26" />
 </section>
