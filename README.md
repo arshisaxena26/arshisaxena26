@@ -21,16 +21,15 @@
 <a href="https://spring.io/" title="Spring"> <img src="https://user-images.githubusercontent.com/53929078/141981869-a5b34ed3-e1b4-428f-8793-e58026ace5b0.png" alt="spring" width="40" height="40"/> </a>
 <a href="https://www.mysql.com/" title="MySQL"> <img src="https://user-images.githubusercontent.com/53929078/141982343-7a375343-44dd-4244-994f-7e960435b1f3.png" alt="mysql" width="40" height="40"/> </a>
 <a href="https://git-scm.com/" title="Git"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://www.jenkins.io/" title="Jenkins"><img src="https://user-images.githubusercontent.com/53929078/152342578-7d669f2c-d1c5-4ff0-8987-63fac692a0ab.png" alt="jenkins" width="60" height="50"/></a>
+<a href="https://bitbucket.org/" title="Bitbucket"><img src="https://user-images.githubusercontent.com/53929078/152343353-36e5d05b-28e4-4bee-9558-b3797c872f83.png" alt="bitbucket" width="40" height="50"/></a>
 </section>
 
 <section>
 <h3>📖 Learning : </h3>
   <p>
-    <a href="https://www.jenkins.io/" title="Jenkins"><img src="https://user-images.githubusercontent.com/53929078/152342578-7d669f2c-d1c5-4ff0-8987-63fac692a0ab.png" alt="jenkins" width="60" height="50"/></a>
-     <a href="https://bitbucket.org/" title="Bitbucket"><img src="https://user-images.githubusercontent.com/53929078/152343353-36e5d05b-28e4-4bee-9558-b3797c872f83.png" alt="bitbucket" width="40" height="50"/></a>
-    <a href="https://groovy-lang.org/" title="Groovy"><img src="https://user-images.githubusercontent.com/53929078/152341979-1264f8cf-713e-4e95-8a0b-c850ca5f69bc.svg" alt="groovy" width="90" height="50"/></a>
-<!--     <a href="https://aws.amazon.com/" title="AWS"><img src="https://user-images.githubusercontent.com/53929078/141993812-b4ac6cab-4500-481a-b9cc-a30066e1fe68.png" alt="aws" width="60" height="50"/></a>
-    <a href="https://www.docker.com/" title="Docker"><img src="https://user-images.githubusercontent.com/53929078/141987146-5f55eb18-71ff-4d8c-9666-68401c3cd1de.png" alt="docker" width="50" height="50"/></a>
+    <a href="https://aws.amazon.com/" title="AWS"><img src="https://user-images.githubusercontent.com/53929078/141993812-b4ac6cab-4500-481a-b9cc-a30066e1fe68.png" alt="aws" width="60" height="50"/></a>
+ <!--   <a href="https://www.docker.com/" title="Docker"><img src="https://user-images.githubusercontent.com/53929078/141987146-5f55eb18-71ff-4d8c-9666-68401c3cd1de.png" alt="docker" width="50" height="50"/></a>
      <a href="https://kubernetes.io/" title="Kubernetes"><img src="https://user-images.githubusercontent.com/53929078/141987592-f5d9b0af-29e0-41e2-9ac0-457382863001.png" alt="kubernetes" width="40" height="40"/></a> -->
 </section>
 
@@ -38,7 +37,3 @@
   <h3>🔍  Where to find me : &nbsp;<a href="https://www.linkedin.com/in/arshi-saxena-ab4789130/" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" height="30" width="100"/></a></h3>
 </section>
 <hr>
-
-<section>
-  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=arshisaxena26&theme=chartreuse-dark" alt="arshisaxena26" />
-</section>
