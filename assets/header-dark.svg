@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
+<style>
+.sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+
+.flow { stroke-dasharray: 4 6; animation: flow 1.6s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -20; } }
+.orbit { transform-origin: 960px 180px; animation: spin 9s linear infinite; }
+.orbit2 { transform-origin: 960px 180px; animation: spin 9s linear infinite; animation-delay: -4.5s; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.pulse { transform-origin: 960px 180px; animation: pulse 3s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; transform: scale(1.12); } }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<clipPath id="frame"><rect x="1" y="1" width="1198" height="358" rx="18"/></clipPath>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1c2840"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="358" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#frame)">
+<rect x="700" y="1" width="499" height="358" rx="18" fill="url(#dots)" opacity=".9"/>
+<rect x="0" y="0" width="1200" height="5" fill="url(#accent)" rx="2"/>
+<text x="64" y="86" class="mono" font-size="15" letter-spacing="2.5" fill="#2dd4bf">SENIOR AI SOLUTIONS ENGINEER · SINGAPORE</text>
+<text x="62" y="156" class="sans" font-size="66" font-weight="700" fill="#e6edf3">Arshi Saxena</text>
+<text x="64" y="202" class="sans" font-size="23" fill="#8b98a9">Full-stack software engineer shipping</text>
+<text x="64" y="234" class="sans" font-size="23" fill="#8b98a9">production GenAI on <tspan fill="#e6edf3" font-weight="600">Azure</tspan>.</text>
+<rect x="64.0" y="262" width="78.4" height="30" rx="15.0" fill="#152036" stroke="#2a3a57"/><text x="103.2" y="281.9" text-anchor="middle" class="mono" font-size="14" fill="#e6edf3">Agents</text><rect x="152.4" y="262" width="53.2" height="30" rx="15.0" fill="#152036" stroke="#2a3a57"/><text x="179.0" y="281.9" text-anchor="middle" class="mono" font-size="14" fill="#e6edf3">RAG</text><rect x="215.6" y="262" width="70.0" height="30" rx="15.0" fill="#152036" stroke="#2a3a57"/><text x="250.6" y="281.9" text-anchor="middle" class="mono" font-size="14" fill="#e6edf3">Voice</text><rect x="295.6" y="262" width="78.4" height="30" rx="15.0" fill="#152036" stroke="#2a3a57"/><text x="334.8" y="281.9" text-anchor="middle" class="mono" font-size="14" fill="#e6edf3">Vision</text><rect x="384.0" y="262" width="78.4" height="30" rx="15.0" fill="#152036" stroke="#2a3a57"/><text x="423.2" y="281.9" text-anchor="middle" class="mono" font-size="14" fill="#e6edf3">LLMOps</text>
+<circle cx="960" cy="180" r="108" fill="none" stroke="#2a3a57" stroke-width="1.5" stroke-dasharray="2 7"/>
+<circle cx="960" cy="180" r="58" fill="#2dd4bf" opacity=".10" class="pulse"/>
+<line x1="960" y1="180" x2="960" y2="72" stroke="#2a3a57" stroke-width="1.5" class="flow"/><circle cx="960" cy="72" r="9" fill="#0f1a2e" stroke="#2dd4bf" stroke-width="2.5"/><text x="960" y="50" text-anchor="middle" class="mono" font-size="15" fill="#8b98a9">plan</text><line x1="960" y1="180" x2="1068" y2="180" stroke="#2a3a57" stroke-width="1.5" class="flow"/><circle cx="1068" cy="180" r="9" fill="#0f1a2e" stroke="#2dd4bf" stroke-width="2.5"/><text x="1090" y="185" text-anchor="start" class="mono" font-size="15" fill="#8b98a9">retrieve</text><line x1="960" y1="180" x2="960" y2="288" stroke="#2a3a57" stroke-width="1.5" class="flow"/><circle cx="960" cy="288" r="9" fill="#0f1a2e" stroke="#2dd4bf" stroke-width="2.5"/><text x="960" y="322" text-anchor="middle" class="mono" font-size="15" fill="#8b98a9">act</text><line x1="960" y1="180" x2="852" y2="180" stroke="#2a3a57" stroke-width="1.5" class="flow"/><circle cx="852" cy="180" r="9" fill="#0f1a2e" stroke="#2dd4bf" stroke-width="2.5"/><text x="830" y="185" text-anchor="end" class="mono" font-size="15" fill="#8b98a9">evaluate</text>
+<g class="orbit"><circle cx="960" cy="72" r="5" fill="#a78bfa"/></g>
+<g class="orbit2"><circle cx="960" cy="72" r="4" fill="#60a5fa"/></g>
+<rect x="910" y="158" width="100" height="44" rx="12" fill="#0f1a2e" stroke="url(#accent)" stroke-width="2"/>
+<text x="960" y="186" text-anchor="middle" class="mono" font-size="17" font-weight="700" fill="#e6edf3">agent</text>
+</g>
+<rect x="1" y="1" width="1198" height="358" rx="18" fill="none" stroke="#263248"/>
+</svg>

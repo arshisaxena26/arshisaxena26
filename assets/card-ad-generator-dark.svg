@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="312" viewBox="0 0 600 312" role="img">
+<style>
+.sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<clipPath id="frame"><rect x="1" y="1" width="598" height="310" rx="18"/></clipPath>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1c2840"/></pattern>
+</defs>
+<rect x="1" y="1" width="598" height="310" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#frame)">
+<rect x="0" y="0" width="600" height="5" fill="url(#accent)" rx="2"/>
+<text x="36" y="56" class="mono" font-size="13" letter-spacing="2" fill="#2dd4bf">AGENTS · NUS-ISS 2026</text>
+<text x="36" y="96" class="sans" font-size="30" font-weight="700" fill="#e6edf3">Ad Generator Agent</text>
+<text x="564" y="96" text-anchor="end" class="sans" font-size="26" fill="#8b98a9">↗</text>
+<text x="36" y="140" class="sans" font-size="19" fill="#8b98a9">LangGraph agent on Claude with a bounded ReAct loop,</text><text x="36" y="168" class="sans" font-size="19" fill="#8b98a9">human-in-the-loop interrupt and layered guardrails.</text><text x="36" y="196" class="sans" font-size="19" fill="#8b98a9">Every merge gated on pytest and promptfoo evals,</text><text x="36" y="224" class="sans" font-size="19" fill="#8b98a9">including prompt-injection tests.</text>
+<rect x="36.0" y="254" width="92.2" height="28" rx="14.0" fill="#152036" stroke="#2a3a57"/><text x="82.1" y="272.6" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">LangGraph</text><rect x="136.2" y="254" width="68.8" height="28" rx="14.0" fill="#152036" stroke="#2a3a57"/><text x="170.6" y="272.6" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">Claude</text><rect x="213.0" y="254" width="76.6" height="28" rx="14.0" fill="#152036" stroke="#2a3a57"/><text x="251.3" y="272.6" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">FastAPI</text><rect x="297.6" y="254" width="76.6" height="28" rx="14.0" fill="#152036" stroke="#2a3a57"/><text x="335.9" y="272.6" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">AWS EKS</text><rect x="382.2" y="254" width="92.2" height="28" rx="14.0" fill="#152036" stroke="#2a3a57"/><text x="428.3" y="272.6" text-anchor="middle" class="mono" font-size="13" fill="#e6edf3">promptfoo</text>
+</g>
+<rect x="1" y="1" width="598" height="310" rx="18" fill="none" stroke="#263248"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="506" viewBox="0 0 1200 506" role="img">
+<style>
+.sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+.mono { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+.l0 { animation: r0 18.0s linear infinite; } @keyframes r0 { 0%, 2.22% { opacity: 0; } 2.82%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l1 { animation: r1 18.0s linear infinite; } @keyframes r1 { 0%, 6.39% { opacity: 0; } 6.99%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l2 { animation: r2 18.0s linear infinite; } @keyframes r2 { 0%, 10.56% { opacity: 0; } 11.16%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l3 { animation: r3 18.0s linear infinite; } @keyframes r3 { 0%, 14.72% { opacity: 0; } 15.32%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l4 { animation: r4 18.0s linear infinite; } @keyframes r4 { 0%, 18.89% { opacity: 0; } 19.49%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l5 { animation: r5 18.0s linear infinite; } @keyframes r5 { 0%, 23.06% { opacity: 0; } 23.66%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l6 { animation: r6 18.0s linear infinite; } @keyframes r6 { 0%, 27.22% { opacity: 0; } 27.82%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l7 { animation: r7 18.0s linear infinite; } @keyframes r7 { 0%, 31.39% { opacity: 0; } 31.99%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l8 { animation: r8 18.0s linear infinite; } @keyframes r8 { 0%, 35.56% { opacity: 0; } 36.16%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.l9 { animation: r9 18.0s linear infinite; } @keyframes r9 { 0%, 39.72% { opacity: 0; } 40.32%, 95% { opacity: 1; } 100% { opacity: 0; } }
+.cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<clipPath id="frame"><rect x="1" y="1" width="1198" height="504" rx="18"/></clipPath>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1c2840"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="504" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#frame)">
+<rect x="0" y="0" width="1200" height="52" fill="#152036"/>
+<line x1="0" y1="52" x2="1200" y2="52" stroke="#263248"/>
+<circle cx="32" cy="26" r="6.5" fill="#ff5f57"/><circle cx="54" cy="26" r="6.5" fill="#febc2e"/><circle cx="76" cy="26" r="6.5" fill="#28c840"/>
+<text x="600.0" y="31" text-anchor="middle" class="mono" font-size="14" fill="#8b98a9">~/arshi — how I build</text>
+<text x="56" y="104" class="mono l0" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">$</tspan> evals run <tspan fill="#a78bfa">--suite</tspan> arshi</text><text x="56" y="172" class="mono l1" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">the model is the easy part</tspan><tspan x="382.4" fill="#8b98a9"># so I build the system around it</tspan></text><text x="56" y="206" class="mono l2" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">context is engineered</tspan><tspan x="382.4" fill="#8b98a9"># hybrid search, reranking, metadata filters</tspan></text><text x="56" y="240" class="mono l3" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">harness over hope</tspan><tspan x="382.4" fill="#8b98a9"># schema-constrained output, deterministic checks</tspan></text><text x="56" y="274" class="mono l4" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">evals before vibes</tspan><tspan x="382.4" fill="#8b98a9"># golden sets and LLM-as-judge, gated in CI</tspan></text><text x="56" y="308" class="mono l5" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">confidence from log-probs</tspan><tspan x="382.4" fill="#8b98a9"># not the model's self-report</tspan></text><text x="56" y="342" class="mono l6" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">humans confirm what matters</tspan><tspan x="382.4" fill="#8b98a9"># human-in-the-loop by design</tspan></text><text x="56" y="376" class="mono l7" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">secure by default</tspan><tspan x="382.4" fill="#8b98a9"># OWASP LLM Top 10 guardrails, SAST in CI</tspan></text><text x="56" y="410" class="mono l8" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf">✓</tspan> <tspan font-weight="700">ship it</tspan><tspan x="382.4" fill="#8b98a9"># production users, not notebooks</tspan></text><g class="l9"><rect class="cur" x="423.2" y="464" width="10.2" height="19" fill="#2dd4bf"/></g><text x="56" y="478" class="mono l9" font-size="17" fill="#e6edf3"><tspan fill="#2dd4bf" font-weight="700">8/8 passed</tspan><tspan fill="#8b98a9"> · 0 vibes-based releases</tspan></text>
+</g>
+<rect x="1" y="1" width="1198" height="504" rx="18" fill="none" stroke="#263248"/>
+</svg>
